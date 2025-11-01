@@ -35,7 +35,7 @@ Este proyecto cumple con todos los requisitos del ejercicio, incluyendo buenas p
 * **HTML5 / CSS3 / JavaScript (ES6):** Estándares web.
 
 ## 📂 Estructura del Proyecto
-├── node_modules/ # (Ignorada por .gitignore) 
+.├── node_modules/ # (Ignorada por .gitignore) 
 ├── public/ 
 │ ├── css/ 
 │ │ └── styles.css
