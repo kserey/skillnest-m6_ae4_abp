@@ -35,7 +35,27 @@ Este proyecto cumple con todos los requisitos del ejercicio, incluyendo buenas p
 * **HTML5 / CSS3 / JavaScript (ES6):** Estándares web.
 
 ## 📂 Estructura del Proyecto
-. ├── node_modules/ # (Ignorada por .gitignore) ├── public/ │ ├── css/ │ │ └── styles.css # Estilos personalizados │ └── img/ │ └── irina-profile.jpg # Imagen de perfil y otros assets ├── views/ │ ├── 404.hbs # Página de error │ ├── about.hbs # Vista "Sobre Mí" con experiencia (Acordeón) │ ├── home.hbs # Vista principal (Intro con Foto) │ ├── projects.hbs # Vista de proyectos detallada │ ├── layouts/ │ │ └── main.hbs # Layout principal (Base HTML y Sticky Footer) │ └── partials/ │ ├── footer.hbs # Pie de página (con helper y LN) │ └── header.hbs # Barra de navegación └── index.js # Servidor Express, Rutas y Configuración └── package.json └── package-lock.json └── .gitignore
+├── node_modules/ # (Ignorada por .gitignore) 
+├── public/ 
+│ ├── css/ 
+│ │ └── styles.css
+│ └── img/ 
+│ │ └── fotoPerfil.png 
+├── views/ 
+│ ├── layouts/ 
+│ │ └── main.hbs # Layout principal
+│ └── partials/ 
+│ │ ├── footer.hbs # Footer 
+│ │ └── header.hbs # Navbar 
+│ ├── 404.hbs # Página de error 
+│ ├── about.hbs # Vista "Sobre Mí" con experiencia (Acordeón) 
+│ ├── home.hbs # Vista principal (Intro con Foto) 
+│ ├── projects.hbs # Vista de proyectos detallada 
+└── .gitignore
+└── index.js # Servidor Express, Rutas y Configuración 
+└── package.json 
+└── package-lock.json 
+
 
 ## 🚀 Puesta en Marcha
 
