@@ -1,0 +1,40 @@
+<section class="home-intro p-4 mb-4 bg-primary text-white rounded shadow-lg d-flex flex-column-reverse flex-md-row align-items-center justify-content-between">
+    
+    <div class="text-center text-md-start mb-3 mb-md-0 me-md-4">
+        <h2 class="display-5">Hola, soy {{nombre}}</h2>
+        <p class="lead">{{descripcion}}</p>
+    </div>
+    
+    <div class="flex-shrink-0 order-md-2">
+        <img src="/img/fotoPerfil.png" alt="Foto de perfil de {{nombre}}" 
+             class="img-fluid rounded-circle border border-5 border-white shadow-lg" 
+             style="width: 150px; height: 150px; object-fit: cover;">
+    </div>
+</section>
+
+<section class="home-projects">
+    <h3 class="border-bottom pb-2 mb-4">Mis Proyectos Destacados</h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {{#each proyectos}}
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{nombre}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{tecnologia}}</h6>
+                        <p class="card-text">{{descripcion_corta}}</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        
+                        {{#if url}} 
+                            <a href="{{url}}" class="btn btn-sm btn-success me-2" target="_blank">
+                                <i class="bi bi-box-arrow-up-right"></i> Ver Sitio Web
+                            </a>
+                        {{/if}}
+
+                        <a href="/projects" class="btn btn-sm btn-outline-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>
