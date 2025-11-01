@@ -65,8 +65,8 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
-    cd nombre-del-repo
+    git clone https://github.com/kserey/skillnest-m6_ae4_abp.git
+    cd skillnest-m6_ae4_abp
     ```
 2.  **Instalar dependencias:**
     ```bash
